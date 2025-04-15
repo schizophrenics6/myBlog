@@ -2,16 +2,16 @@ import { defineConfig } from "vitepress";
 import { fileURLToPath, URL } from "node:url";
 import { getSidebar } from "./utils/getSidebar";
 export default defineConfig({
-  title: "LofiSu",
-  titleTemplate: "LofiSu",
+  title: "Schizophrenics6",
+  titleTemplate: "Schizophrenics6",
   // md 文件根目录
   srcDir: "./src",
   lastUpdated: true,
   description:
-    "LofiSu's tech blog: An undergraduate's journey through frontend development, sharing insights, tips, and experiences in web technologies.",
-  head: [["link", { rel: "icon", href: "/logo.png" }]],
+    "Schizophrenics6's tech blog: An undergraduate's journey through backend development, sharing insights, tips, and experiences in web technologies.",
+  head: [["link", { rel: "icon", href: "/66.jpg" }]],
   themeConfig: {
-    logo: "/logo.png",
+    logo: "/66.jpg",
     // 顶部导航栏
     nav: [
       { text: "👋 AboutMe", link: "AboutMe.md" },
@@ -28,10 +28,10 @@ export default defineConfig({
       provider: "local",
     },
     // 顶部导航栏左侧的社交平台跳转
-    socialLinks: [{ icon: "github", link: "https://github.com/LofiSu" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/schizophrenics6" }],
     // 首页底部版权声明
     footer: {
-      copyright: "Copyright © 2024-present LofiSu",
+      copyright: "Copyright © 2025-present Schizophrenics6",
     },
     // 文章内导航栏标题
     outlineTitle: "导航栏",

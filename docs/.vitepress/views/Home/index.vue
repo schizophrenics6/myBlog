@@ -2,16 +2,16 @@
   <div class="home flex h-screen w-screen items-center justify-center">
     <EmojiBackground />
     <div class=" -mt-10 sm:-mt-40 flex w-screen animate-scale-in-center flex-col px-4 sm:w-[626px]">
-      <img src="../img/logo.jpg" class="block w-48 h-48 mx-auto rounded-full animate-bounce-border" />
+      <img src="../img/6.jpg" class="block w-48 h-48 mx-auto rounded-full animate-bounce-border" />
       <div
         class="mt-6 flex w-full flex-col items-center rounded-lg bg-white/70 py-6 text-zinc-800 shadow shadow-black/40 backdrop-blur-sm relative"
         data-aos="fade-in" data-aos-duration="1000">
         <div class="text-2xl font-bold sm:text-3xl">
           <span class="shake-hand inline-block">👋</span> Hi, I am
-          <span class="bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">LofiSu</span>.
+          <span class="bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">Schizophrenics6</span>.
         </div>
-        <p class="mt-2 sm:text-lg text-base"> LofiSu's Tech Blog / Front-End Developer</p>
-        <p class="mt-1 text-black/50">“🚀You can call me Su. A software engineer. A lifelong learner. A
+        <p class="mt-2 sm:text-lg text-base"> Schizophrenics6's Tech Blog / Back-End Developer</p>
+        <p class="mt-1 text-black/50">“🚀You can call me Along. A software engineer. A lifelong learner. A
           dreamer.”</p>
         <div class="mt-4 flex gap-4">
           <div @click="router.go('./AboutMe')"
@@ -40,7 +40,7 @@ const returnToTopRef = ref<HTMLElement | null>(null)
 
 const router = useRouter()
 const gotoGithub = () => {
-  window.open('https://github.com/LofiSu')
+  window.open('https://github.com/schizophrenics6')
 }
 
 onMounted(() => {
