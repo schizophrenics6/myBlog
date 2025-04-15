@@ -1,5 +1,5 @@
 ---
-updateTime: "2025-2-07 10:30"
+updateTime: "2025-04-15 15:02"
 desc: "💡GraphRAG解读：让LLM学会结构化思考"
 tags: "AI"
 outline: deep
